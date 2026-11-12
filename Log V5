@@ -1,0 +1,178 @@
+[14:37:27.9377966] [Lua] [AdvisorV3] === PREP STARTED (F3). Waiting for tube entry... ===
+[14:37:32.9245746] [Lua] [AdvisorV3] PREP HEARTBEAT #30: foundEve=true, CylR=40.0, inTube=false
+[14:37:33.9110121] [Lua] [AdvisorV3] TUBE DETECTED (Delay: 5973.00 ms). Building Index...
+[14:37:34.3626451] [Lua] [AdvisorV3] INDEX READY. Total: 350.00 ms
+[14:37:34.3627553] [Lua] [AdvisorV3]   - FindAllOf(BoxComponent): 67.00 ms
+[14:37:34.3629304] [Lua] [AdvisorV3]   - Find Targets (Boxes+Signs): 127.00 ms
+[14:37:34.3629691] [Lua] [AdvisorV3]   - Cached valid targets: 138
+[14:37:34.6187248] [Lua] [AdvisorV3] === ADVISOR STARTED (NO-OP TEST) ===
+[14:37:34.6713013] [Lua] [AdvisorV3] [ISO] adv_tick entered. Targets=138. Pre-target test.
+[14:37:35.0241908] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_DM_SE03_Sign97_49 | SectorSpan=31.8 deg | RadCenter=374.3 | RadCorners=[188.9..561.8] | ActorBoxOffset=94.31 | AxisDiff F/R/U=0.01/0.00/0.00 deg
+[14:37:35.0243200] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=3038 | TTC=0.68s
+[14:37:35.0245345] [Lua] [AdvisorV3]    EveTheta=-77.5 | Sector=[-121.4..-89.6]
+[14:37:35.0245778] [Lua] [AdvisorV3]    Omega=-18.7 deg/s | PredTheta=-90.1
+[14:37:35.0246155] [Lua] [AdvisorV3]    REQ: Theta=-74.6 (Delta=2.9) -> Hold D (Right)
+[14:37:35.0927597] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_DM_SE03_Sign_C | Dist=2747 | TTC=0.61s
+[14:37:35.0928749] [Lua] [AdvisorV3]    EveTheta=-79.4 | Sector=[-101.6..-60.9]
+[14:37:35.0930795] [Lua] [AdvisorV3]    Omega=-28.7 deg/s | PredTheta=-97.0
+[14:37:35.0931230] [Lua] [AdvisorV3]    REQ: Theta=-45.9 (Delta=33.5) -> Hold D (Right)
+[14:37:35.1594232] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_DM_SE03_Sign_C | Dist=2451 | TTC=0.54s
+[14:37:35.1595472] [Lua] [AdvisorV3]    EveTheta=-81.6 | Sector=[-88.3..-36.9]
+[14:37:35.1598187] [Lua] [AdvisorV3]    Omega=-32.4 deg/s | PredTheta=-99.3
+[14:37:35.1598888] [Lua] [AdvisorV3]    REQ: Theta=-103.3 (Delta=-21.7) -> Hold A (Left)
+[14:37:35.4947325] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_DM_SE03_Sign131_11 | SectorSpan=30.0 deg | RadCenter=376.6 | RadCorners=[188.1..565.1] | ActorBoxOffset=94.31 | AxisDiff F/R/U=0.00/0.00/0.00 deg
+[14:37:35.4948503] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_DM_SE03_Sign_C | Dist=3599 | TTC=0.80s
+[14:37:35.4950956] [Lua] [AdvisorV3]    EveTheta=-77.2 | Sector=[-105.1..-75.1]
+[14:37:35.4951556] [Lua] [AdvisorV3]    Omega=34.1 deg/s | PredTheta=-50.0
+[14:37:35.4952091] [Lua] [AdvisorV3]    REQ: Theta=-60.1 (Delta=17.1) -> Hold D (Right)
+[14:37:35.5626157] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_DM_SE03_Sign_C | Dist=3308 | TTC=0.74s
+[14:37:35.5627265] [Lua] [AdvisorV3]    EveTheta=-76.0 | Sector=[-87.7..-41.2]
+[14:37:35.5629647] [Lua] [AdvisorV3]    Omega=18.2 deg/s | PredTheta=-62.6
+[14:37:35.5630188] [Lua] [AdvisorV3]    REQ: Theta=-102.7 (Delta=-26.7) -> Hold A (Left)
+[14:37:35.9043001] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_ContainerTrain_Box74_14 | SectorSpan=19.1 deg | RadCenter=1353.2 | RadCorners=[1123.4..1585.4] | ActorBoxOffset=150.00 | AxisDiff F/R/U=0.00/0.00/0.01 deg
+[14:37:35.9044449] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=5496 | TTC=1.22s
+[14:37:35.9055039] [Lua] [AdvisorV3]    EveTheta=-81.4 | Sector=[-133.5..-114.4]
+[14:37:35.9123671] [Lua] [AdvisorV3]    Omega=-34.4 deg/s | PredTheta=-123.4
+[14:37:35.9128698] [Lua] [AdvisorV3]    REQ: Theta=-99.4 (Delta=-18.1) -> Hold A (Left)
+[14:37:35.9820530] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=5151 | TTC=1.14s
+[14:37:35.9822401] [Lua] [AdvisorV3]    EveTheta=-83.4 | Sector=[-129.4..-107.9]
+[14:37:35.9837013] [Lua] [AdvisorV3]    Omega=-27.2 deg/s | PredTheta=-114.5
+[14:37:35.9840868] [Lua] [AdvisorV3]    REQ: Theta=-92.9 (Delta=-9.5) -> Hold A (Left)
+[14:37:36.3958575] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=3331 | TTC=0.74s
+[14:37:36.3960031] [Lua] [AdvisorV3]    EveTheta=-84.7 | Sector=[-121.6..-92.1]
+[14:37:36.3974498] [Lua] [AdvisorV3]    Omega=-19.1 deg/s | PredTheta=-98.8
+[14:37:36.3979331] [Lua] [AdvisorV3]    REQ: Theta=-77.1 (Delta=7.6) -> Hold D (Right)
+[14:37:36.4675508] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=3046 | TTC=0.68s
+[14:37:36.4677021] [Lua] [AdvisorV3]    EveTheta=-87.3 | Sector=[-118.3..-85.5]
+[14:37:36.4693087] [Lua] [AdvisorV3]    Omega=-36.4 deg/s | PredTheta=-111.9
+[14:37:36.4696825] [Lua] [AdvisorV3]    REQ: Theta=-70.5 (Delta=16.8) -> Hold D (Right)
+[14:37:36.5467350] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=2682 | TTC=0.60s
+[14:37:36.5469296] [Lua] [AdvisorV3]    EveTheta=-91.1 | Sector=[-113.1..-76.8]
+[14:37:36.5481748] [Lua] [AdvisorV3]    Omega=-46.4 deg/s | PredTheta=-118.7
+[14:37:36.5485697] [Lua] [AdvisorV3]    REQ: Theta=-61.8 (Delta=29.3) -> Hold D (Right)
+[14:37:36.6174285] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=2387 | TTC=0.53s
+[14:37:36.6175865] [Lua] [AdvisorV3]    EveTheta=-94.3 | Sector=[-108.2..-68.6]
+[14:37:36.6190444] [Lua] [AdvisorV3]    Omega=-46.4 deg/s | PredTheta=-118.9
+[14:37:36.6193945] [Lua] [AdvisorV3]    REQ: Theta=-123.2 (Delta=-28.9) -> Hold A (Left)
+[14:37:36.6960881] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=2014 | TTC=0.45s
+[14:37:36.6962448] [Lua] [AdvisorV3]    EveTheta=-98.7 | Sector=[-102.0..-60.6]
+[14:37:36.6980382] [Lua] [AdvisorV3]    Omega=-55.4 deg/s | PredTheta=-123.5
+[14:37:36.6985528] [Lua] [AdvisorV3]    REQ: Theta=-117.0 (Delta=-18.3) -> Hold A (Left)
+[14:37:36.7666694] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_ContainerTrain_Box92_32 | SectorSpan=22.1 deg | RadCenter=865.0 | RadCorners=[684.7..1045.7] | ActorBoxOffset=150.00 | AxisDiff F/R/U=0.00/0.00/0.00 deg
+[14:37:36.7668076] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=4227 | TTC=0.94s
+[14:37:36.7788937] [Lua] [AdvisorV3]    EveTheta=-102.1 | Sector=[-168.0..-146.0]
+[14:37:36.7803587] [Lua] [AdvisorV3]    Omega=-48.8 deg/s | PredTheta=-148.0
+[14:37:36.7808314] [Lua] [AdvisorV3]    REQ: Theta=-131.0 (Delta=-28.9) -> Hold A (Left)
+[14:37:37.2555021] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_ContainerTrain_Box86_26 | SectorSpan=244.6 deg | RadCenter=39.7 | RadCorners=[128.0..272.1] | ActorBoxOffset=150.00 | AxisDiff F/R/U=0.00/0.02/0.01 deg
+[14:37:37.2556334] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=5377 | TTC=1.19s
+[14:37:37.2568150] [Lua] [AdvisorV3]    EveTheta=-108.5 | Sector=[164.7..49.3]
+[14:37:37.2628996] [Lua] [AdvisorV3]    Omega=30.9 deg/s | PredTheta=-71.5
+[14:37:37.2635759] [Lua] [AdvisorV3]    REQ: Theta=149.7 (Delta=-101.8) -> Hold A (Left)
+[14:37:37.3323357] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=5018 | TTC=1.12s
+[14:37:37.3324717] [Lua] [AdvisorV3]    EveTheta=-103.5 | Sector=[-156.3..11.4]
+[14:37:37.3337980] [Lua] [AdvisorV3]    Omega=64.4 deg/s | PredTheta=-31.7
+[14:37:37.3342191] [Lua] [AdvisorV3]    REQ: Theta=-171.3 (Delta=-67.7) -> Hold A (Left)
+[14:37:37.4027854] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=4733 | TTC=1.05s
+[14:37:37.4029155] [Lua] [AdvisorV3]    EveTheta=-98.3 | Sector=[-129.6..-19.2]
+[14:37:37.4039857] [Lua] [AdvisorV3]    Omega=74.4 deg/s | PredTheta=-20.1
+[14:37:37.4043569] [Lua] [AdvisorV3]    REQ: Theta=-144.6 (Delta=-46.3) -> Hold A (Left)
+[14:37:37.4811062] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=4378 | TTC=0.97s
+[14:37:37.4812350] [Lua] [AdvisorV3]    EveTheta=-91.1 | Sector=[-116.8..-43.8]
+[14:37:37.4827668] [Lua] [AdvisorV3]    Omega=92.1 deg/s | PredTheta=-1.5
+[14:37:37.4832657] [Lua] [AdvisorV3]    REQ: Theta=-131.8 (Delta=-40.8) -> Hold A (Left)
+[14:37:37.5502958] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=4103 | TTC=0.91s
+[14:37:37.5504330] [Lua] [AdvisorV3]    EveTheta=-86.3 | Sector=[-110.1..-45.6]
+[14:37:37.5517786] [Lua] [AdvisorV3]    Omega=68.6 deg/s | PredTheta=-23.7
+[14:37:37.5521431] [Lua] [AdvisorV3]    REQ: Theta=-125.1 (Delta=-38.8) -> Hold A (Left)
+[14:37:37.6278282] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=3735 | TTC=0.83s
+[14:37:37.6279595] [Lua] [AdvisorV3]    EveTheta=-81.7 | Sector=[-103.1..-46.7]
+[14:37:37.6293319] [Lua] [AdvisorV3]    Omega=59.4 deg/s | PredTheta=-32.3
+[14:37:37.6297285] [Lua] [AdvisorV3]    REQ: Theta=-118.1 (Delta=-36.4) -> Hold A (Left)
+[14:37:37.6996883] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=3437 | TTC=0.76s
+[14:37:37.6998462] [Lua] [AdvisorV3]    EveTheta=-80.2 | Sector=[-98.7..-47.0]
+[14:37:37.7013561] [Lua] [AdvisorV3]    Omega=21.7 deg/s | PredTheta=-63.6
+[14:37:37.7126119] [Lua] [AdvisorV3]    REQ: Theta=-113.7 (Delta=-33.5) -> Hold A (Left)
+[14:37:37.7818649] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_ContainerTrain_Box_C | Dist=3063 | TTC=0.68s
+[14:37:37.7820177] [Lua] [AdvisorV3]    EveTheta=-80.4 | Sector=[-94.2..-47.0]
+[14:37:37.7838331] [Lua] [AdvisorV3]    Omega=-2.9 deg/s | PredTheta=-82.4
+[14:37:37.7842514] [Lua] [AdvisorV3]    REQ: Theta=-109.2 (Delta=-28.8) -> Hold A (Left)
+[14:37:37.8663347] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=2689 | TTC=0.60s
+[14:37:37.8665031] [Lua] [AdvisorV3]    EveTheta=-82.5 | Sector=[-90.7..-46.9]
+[14:37:37.8678141] [Lua] [AdvisorV3]    Omega=-24.3 deg/s | PredTheta=-97.0
+[14:37:37.8681967] [Lua] [AdvisorV3]    REQ: Theta=-105.7 (Delta=-23.2) -> Hold A (Left)
+[14:37:37.9467993] [Lua]
+[AdvisorV3] [IN-SECTOR-EXITING] BP_ContainerTrain_Box_C | Dist=2316 | TTC=0.51s
+[14:37:37.9469581] [Lua] [AdvisorV3]    EveTheta=-85.9 | Sector=[-87.8..-46.6]
+[14:37:37.9483304] [Lua] [AdvisorV3]    Omega=-42.0 deg/s | PredTheta=-107.5
+[14:37:37.9487820] [Lua] [AdvisorV3]    REQ: Theta=-102.8 (Delta=-16.9) -> Hold A (Left)
+[14:37:38.0191746] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_ContainerTrain_Box80_20 | SectorSpan=23.8 deg | RadCenter=988.6 | RadCorners=[751.5..1225.7] | ActorBoxOffset=150.00 | AxisDiff F/R/U=0.01/0.00/0.01 deg
+[14:37:38.0192994] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=5638 | TTC=1.25s
+[14:37:38.0203859] [Lua] [AdvisorV3]    EveTheta=-89.4 | Sector=[-167.1..-143.3]
+[14:37:38.0285482] [Lua] [AdvisorV3]    Omega=-49.2 deg/s | PredTheta=-151.0
+[14:37:38.0289520] [Lua] [AdvisorV3]    REQ: Theta=-128.3 (Delta=-38.9) -> Hold A (Left)
+[14:37:38.0967153] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=5277 | TTC=1.17s
+[14:37:38.0968810] [Lua] [AdvisorV3]    EveTheta=-94.0 | Sector=[-164.0..-138.4]
+[14:37:38.0982248] [Lua] [AdvisorV3]    Omega=-57.6 deg/s | PredTheta=-161.6
+[14:37:38.0986646] [Lua] [AdvisorV3]    REQ: Theta=-123.4 (Delta=-29.4) -> Hold A (Left)
+[14:37:38.1667079] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_ContainerTrain_Box_C | Dist=4986 | TTC=1.11s
+[14:37:38.1668421] [Lua] [AdvisorV3]    EveTheta=-96.8 | Sector=[-161.5..-134.6]
+[14:37:38.1681586] [Lua] [AdvisorV3]    Omega=-40.2 deg/s | PredTheta=-141.3
+[14:37:38.1685610] [Lua] [AdvisorV3]    REQ: Theta=-119.6 (Delta=-22.9) -> Hold A (Left)
+[14:37:40.0123876] [Lua] [AdvisorV3] [GEOM-AUDIT] BP_DM_SE03_Sign31_17 | SectorSpan=201.4 deg | RadCenter=76.2 | RadCorners=[105.7..264.4] | ActorBoxOffset=94.31 | AxisDiff F/R/U=0.01/0.00/0.02 deg
+[14:37:40.0125280] [Lua]
+[AdvisorV3] [DANGER-INSIDE] BP_DM_SE03_Sign_C | Dist=5081 | TTC=1.13s
+[14:37:40.0137689] [Lua] [AdvisorV3]    EveTheta=-99.2 | Sector=[102.1..-56.5]
+[14:37:40.0145091] [Lua] [AdvisorV3]    Omega=-57.6 deg/s | PredTheta=-164.3
+[14:37:40.0149262] [Lua] [AdvisorV3]    REQ: Theta=-41.5 (Delta=57.7) -> Hold D (Right)
+[14:37:40.0827361] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=4793 | TTC=1.07s
+[14:37:40.0828683] [Lua] [AdvisorV3]    EveTheta=-102.8 | Sector=[134.3..-108.0]
+[14:37:40.0842578] [Lua] [AdvisorV3]    Omega=-51.5 deg/s | PredTheta=-157.7
+[14:37:40.0847362] [Lua] [AdvisorV3]    REQ: Theta=-93.0 (Delta=9.8) -> Hold D (Right)
+[14:37:40.1500935] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=4503 | TTC=1.00s
+[14:37:40.1502224] [Lua] [AdvisorV3]    EveTheta=-105.9 | Sector=[159.4..-116.4]
+[14:37:40.1518748] [Lua] [AdvisorV3]    Omega=-45.0 deg/s | PredTheta=-150.9
+[14:37:40.1525831] [Lua] [AdvisorV3]    REQ: Theta=-101.4 (Delta=4.5) -> Hold D (Right)
+[14:37:40.2202308] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=4209 | TTC=0.94s
+[14:37:40.2203668] [Lua] [AdvisorV3]    EveTheta=-108.5 | Sector=[175.7..-120.8]
+[14:37:40.2215271] [Lua] [AdvisorV3]    Omega=-37.4 deg/s | PredTheta=-143.5
+[14:37:40.2219211] [Lua] [AdvisorV3]    REQ: Theta=-105.8 (Delta=2.8) -> Hold D (Right)
+[14:37:40.2993742] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=3839 | TTC=0.85s
+[14:37:40.2994917] [Lua] [AdvisorV3]    EveTheta=-111.3 | Sector=[-173.8..-124.5]
+[14:37:40.3006531] [Lua] [AdvisorV3]    Omega=-34.7 deg/s | PredTheta=-140.9
+[14:37:40.3010515] [Lua] [AdvisorV3]    REQ: Theta=-109.5 (Delta=1.8) -> Hold D (Right)
+[14:37:40.3670222] [Lua] [AdvisorV3] === ADVISOR STOPPED ===
+[14:37:40.3693713] [Lua]
+[AdvisorV3] [WILL-ENTER] BP_DM_SE03_Sign_C | Dist=3541 | TTC=0.79s
+[14:37:40.3694764] [Lua] [AdvisorV3]    EveTheta=-113.1 | Sector=[-169.7..-127.0]
+[14:37:40.3699828] [Lua] [AdvisorV3]    Omega=-26.7 deg/s | PredTheta=-134.1
+[14:37:40.3704117] [Lua] [AdvisorV3]    REQ: Theta=-112.0 (Delta=1.1) -> Hold D (Right)
+[14:37:40.6148596] [Lua] [AdvisorV3] === PREP STOPPED & CLEARED ===
