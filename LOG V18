@@ -1,0 +1,173 @@
+17:31:10.8389394] [Lua] [AdvisorV3] === PREP STARTED (F3). Waiting for tube entry... ===
+[17:31:12.1867039] [Lua] [DekCNS_P] SetupPlayerPawnBindings
+[17:31:15.8481940] [Lua] [AdvisorV3] PREP HEARTBEAT #30: foundEve=true, CylR=40.0, inTube=false
+[17:31:16.0119446] [Lua] [AdvisorV3] TUBE DETECTED (Delay: 5173.00 ms). Building Index...
+[17:31:16.4515747] [Lua] [AdvisorV3] INDEX READY. Total: 335.00 ms
+[17:31:16.4516963] [Lua] [AdvisorV3]   - FindAllOf(BoxComponent): 67.00 ms
+[17:31:16.4518592] [Lua] [AdvisorV3]   - Find Targets (Boxes+Signs): 121.00 ms
+[17:31:16.4519036] [Lua] [AdvisorV3]   - Cached valid targets: 138
+[17:31:16.9778820] Asset loaded
+[17:31:16.9779835] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[17:31:16.9785665] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(11845.0, 10814.1, 914.8) | ActualLoc=(11845.0, 10814.1, 914.8) | RequestedScale=0.50 | ActualScale=(0.5, 0.5, 0.5)
+[17:31:16.9786263] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 2000.0 units.
+[17:31:16.9867863] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-5.2,49.9,0.0) | ActualRot=(-5.2,49.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(10962.9, 10608.6, 1021.9)
+[17:31:16.9870801] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-5.2,49.9,0.0) | ActualRot=(-5.2,49.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(11102.4, 10499.1, 1089.8)
+[17:31:16.9873334] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-5.2,49.9,0.0) | ActualRot=(-5.2,49.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(10861.7, 10744.7, 1449.5)
+[17:31:16.9876581] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-5.2,49.9,0.0) | ActualRot=(-5.2,49.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(11001.2, 10635.2, 1517.4)
+[17:31:16.9879802] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(68.4,126.6,0.0) | ActualRot=(68.4,126.6,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(10857.1, 10611.2, 1243.5)
+[17:31:16.9882755] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(68.4,126.6,0.0) | ActualRot=(68.4,126.6,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(10996.6, 10501.6, 1311.4)
+[17:31:16.9885414] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(68.4,126.6,0.0) | ActualRot=(68.4,126.6,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(10967.5, 10742.2, 1227.9)
+[17:31:16.9895966] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(68.4,126.6,0.0) | ActualRot=(68.4,126.6,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(11107.0, 10632.6, 1295.8)
+[17:31:16.9899113] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.9,-38.1,0.0) | ActualRot=(20.9,-38.1,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(10977.5, 10488.4, 1063.6)
+[17:31:16.9901639] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.9,-38.1,0.0) | ActualRot=(20.9,-38.1,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(10876.3, 10624.5, 1491.2)
+[17:31:16.9910729] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.9,-38.1,0.0) | ActualRot=(20.9,-38.1,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(11087.9, 10619.3, 1048.1)
+[17:31:16.9916224] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.9,-38.1,0.0) | ActualRot=(20.9,-38.1,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(10986.6, 10755.4, 1475.7)
+[17:31:16.9918034] [Lua] [HTS-F6-DUAL] TARGET_B wireframe created. Actor=BP_DM_SE03_Sign7_44 | Center=(10982.1, 10621.9, 1269.7) | ScaledExtent=(36.0, 180.0, 45.0) | Edges=12 | Thickness=18.0 | Padding=50.0
+[17:31:16.9924284] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11845.0, 10739.1, 839.8)
+[17:31:16.9927409] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11845.0, 10739.1, 989.8)
+[17:31:16.9930602] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11845.0, 10889.1, 839.8)
+[17:31:16.9934929] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11845.0, 10889.1, 989.8)
+[17:31:16.9938977] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11770.0, 10814.1, 839.8)
+[17:31:16.9942881] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11770.0, 10814.1, 989.8)
+[17:31:16.9947271] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11920.0, 10814.1, 839.8)
+[17:31:16.9950617] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11920.0, 10814.1, 989.8)
+[17:31:16.9955713] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11770.0, 10739.1, 914.8)
+[17:31:16.9961030] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11770.0, 10889.1, 914.8)
+[17:31:16.9965081] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11920.0, 10739.1, 914.8)
+[17:31:16.9969333] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(11920.0, 10889.1, 914.8)
+[17:31:16.9971038] [Lua] [HTS-F6-DUAL] CALIBRATION_C created. Center=(11845.0, 10814.1, 914.8) | HalfExtent=75 | Edges=12 | Thickness=12.0
+[17:31:16.9973963] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (scale=0.50) | B=TARGET_WIREFRAME (12 edges) | Target=BP_DM_SE03_Sign7_44
+[17:31:16.9977136] [Lua] [HTS-F6-DUAL] Press F6 again to destroy CONTROL_A and all 12 TARGET_B edges.
+[17:31:18.1748687] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=25 | Failed=0
+[17:31:18.9283501] Asset loaded
+[17:31:18.9284609] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[17:31:18.9301435] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(19954.7, 12454.7, -813.5) | ActualLoc=(19954.7, 12454.7, -813.5) | RequestedScale=0.50 | ActualScale=(0.5, 0.5, 0.5)
+[17:31:18.9302345] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 2000.0 units.
+[17:31:18.9396770] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(6.3,160.1,0.0) | ActualRot=(6.3,160.1,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.3, 0.2, 0.2) | Loc=(20007.5, 13174.2, -995.0)
+[17:31:18.9401706] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(6.3,160.1,0.0) | ActualRot=(6.3,160.1,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.3, 0.2, 0.2) | Loc=(20024.4, 13112.1, -661.1)
+[17:31:18.9405687] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(6.3,160.1,0.0) | ActualRot=(6.3,160.1,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.3, 0.2, 0.2) | Loc=(19850.7, 12763.4, -1063.4)
+[17:31:18.9410650] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(6.3,160.1,0.0) | ActualRot=(6.3,160.1,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.3, 0.2, 0.2) | Loc=(19867.5, 12701.3, -729.5)
+[17:31:18.9414743] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-8.8,-110.9,0.0) | ActualRot=(-8.8,-110.9,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(20080.9, 12913.8, -1047.1)
+[17:31:18.9418595] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-8.8,-110.9,0.0) | ActualRot=(-8.8,-110.9,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(20097.8, 12851.8, -713.2)
+[17:31:18.9422248] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-8.8,-110.9,0.0) | ActualRot=(-8.8,-110.9,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(19777.2, 13023.8, -1011.3)
+[17:31:18.9425528] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-8.8,-110.9,0.0) | ActualRot=(-8.8,-110.9,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(19794.1, 12961.7, -677.4)
+[17:31:18.9429702] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(79.1,-74.8,0.0) | ActualRot=(79.1,-74.8,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(20167.8, 13088.2, -846.0)
+[17:31:18.9433546] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(79.1,-74.8,0.0) | ActualRot=(79.1,-74.8,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(20011.0, 12677.4, -914.4)
+[17:31:18.9438358] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(79.1,-74.8,0.0) | ActualRot=(79.1,-74.8,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(19864.1, 13198.2, -810.2)
+[17:31:18.9443784] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(79.1,-74.8,0.0) | ActualRot=(79.1,-74.8,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(19707.2, 12787.4, -878.6)
+[17:31:18.9445612] [Lua] [HTS-F6-DUAL] TARGET_B wireframe created. Actor=BP_ContainerTrain_Box74_14 | Center=(19937.5, 12937.8, -862.3) | ScaledExtent=(112.5, 172.5, 120.0) | Edges=12 | Thickness=18.0 | Padding=50.0
+[17:31:18.9451692] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19954.7, 12379.7, -888.5)
+[17:31:18.9454612] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19954.7, 12379.7, -738.5)
+[17:31:18.9458322] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19954.7, 12529.7, -888.5)
+[17:31:18.9461489] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19954.7, 12529.7, -738.5)
+[17:31:18.9465114] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19879.7, 12454.7, -888.5)
+[17:31:18.9468130] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19879.7, 12454.7, -738.5)
+[17:31:18.9471821] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(20029.7, 12454.7, -888.5)
+[17:31:18.9474726] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(20029.7, 12454.7, -738.5)
+[17:31:18.9478258] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19879.7, 12379.7, -813.5)
+[17:31:18.9482569] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(19879.7, 12529.7, -813.5)
+[17:31:18.9486295] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(20029.7, 12379.7, -813.5)
+[17:31:18.9489212] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(20029.7, 12529.7, -813.5)
+[17:31:18.9491143] [Lua] [HTS-F6-DUAL] CALIBRATION_C created. Center=(19954.7, 12454.7, -813.5) | HalfExtent=75 | Edges=12 | Thickness=12.0
+[17:31:18.9494959] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (scale=0.50) | B=TARGET_WIREFRAME (12 edges) | Target=BP_ContainerTrain_Box74_14
+[17:31:18.9498263] [Lua] [HTS-F6-DUAL] Press F6 again to destroy CONTROL_A and all 12 TARGET_B edges.
+[17:31:20.1060300] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=25 | Failed=0
+[17:31:20.6343193] Asset loaded
+[17:31:20.6344283] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[17:31:20.6360896] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(27298.2, 11363.9, -1788.1) | ActualLoc=(27298.2, 11363.9, -1788.1) | RequestedScale=0.50 | ActualScale=(0.5, 0.5, 0.5)
+[17:31:20.6380089] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 2000.0 units.
+[17:31:20.6489120] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(1.2,6.6,0.0) | ActualRot=(1.2,6.6,-0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(25761.9, 12109.5, -1940.2)
+[17:31:20.6492553] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(1.2,6.6,0.0) | ActualRot=(1.2,6.6,-0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(25768.5, 11993.7, -1620.6)
+[17:31:20.6496479] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(1.2,6.6,0.0) | ActualRot=(1.2,6.6,-0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(25710.8, 12524.8, -1788.6)
+[17:31:20.6499489] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(1.2,6.6,0.0) | ActualRot=(1.2,6.6,-0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(25717.5, 12408.9, -1469.0)
+[17:31:20.6504207] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(19.9,97.0,0.0) | ActualRot=(19.9,97.0,0.0) | ReqScale=(4.4, 0.2, 0.2) | ActualScale=(4.4, 0.2, 0.2) | Loc=(25575.0, 12298.5, -1867.8)
+[17:31:20.6508163] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(19.9,97.0,0.0) | ActualRot=(19.9,97.0,0.0) | ReqScale=(4.4, 0.2, 0.2) | ActualScale=(4.4, 0.2, 0.2) | Loc=(25581.6, 12182.7, -1548.2)
+[17:31:20.6511769] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(19.9,97.0,0.0) | ActualRot=(19.9,97.0,0.0) | ReqScale=(4.4, 0.2, 0.2) | ActualScale=(4.4, 0.2, 0.2) | Loc=(25897.8, 12335.8, -1861.0)
+[17:31:20.6516239] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(19.9,97.0,0.0) | ActualRot=(19.9,97.0,0.0) | ReqScale=(4.4, 0.2, 0.2) | ActualScale=(4.4, 0.2, 0.2) | Loc=(25904.4, 12219.9, -1541.4)
+[17:31:20.6520202] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(70.0,-86.7,0.0) | ActualRot=(70.0,-86.7,-0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(25603.8, 12033.0, -1783.8)
+[17:31:20.6523625] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(70.0,-86.7,0.0) | ActualRot=(70.0,-86.7,-0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(25552.8, 12448.2, -1632.2)
+[17:31:20.6527304] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(70.0,-86.7,0.0) | ActualRot=(70.0,-86.7,-0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(25926.6, 12070.2, -1777.0)
+[17:31:20.6530768] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(70.0,-86.7,0.0) | ActualRot=(70.0,-86.7,-0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(25875.6, 12485.5, -1625.4)
+[17:31:20.6532854] [Lua] [HTS-F6-DUAL] TARGET_B wireframe created. Actor=BP_ContainerTrain_Box86_26 | Center=(25739.7, 12259.2, -1704.6) | ScaledExtent=(112.5, 172.5, 120.0) | Edges=12 | Thickness=18.0 | Padding=50.0
+[17:31:20.6538878] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27298.2, 11288.9, -1863.1)
+[17:31:20.6543073] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27298.2, 11288.9, -1713.1)
+[17:31:20.6546375] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27298.2, 11438.9, -1863.1)
+[17:31:20.6550926] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27298.2, 11438.9, -1713.1)
+[17:31:20.6553975] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27223.2, 11363.9, -1863.1)
+[17:31:20.6558004] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27223.2, 11363.9, -1713.1)
+[17:31:20.6561081] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27373.2, 11363.9, -1863.1)
+[17:31:20.6564438] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27373.2, 11363.9, -1713.1)
+[17:31:20.6567501] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27223.2, 11288.9, -1788.1)
+[17:31:20.6570967] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27223.2, 11438.9, -1788.1)
+[17:31:20.6575774] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27373.2, 11288.9, -1788.1)
+[17:31:20.6579773] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(27373.2, 11438.9, -1788.1)
+[17:31:20.6580790] [Lua] [HTS-F6-DUAL] CALIBRATION_C created. Center=(27298.2, 11363.9, -1788.1) | HalfExtent=75 | Edges=12 | Thickness=12.0
+[17:31:20.6584593] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (scale=0.50) | B=TARGET_WIREFRAME (12 edges) | Target=BP_ContainerTrain_Box86_26
+[17:31:20.6618422] [Lua] [HTS-F6-DUAL] Press F6 again to destroy CONTROL_A and all 12 TARGET_B edges.
+[17:31:21.7489620] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=25 | Failed=0
+[17:31:22.2367721] Asset loaded
+[17:31:22.2368857] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[17:31:22.2406402] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(33840.1, 9069.9, -1639.9) | ActualLoc=(33840.1, 9069.9, -1639.9) | RequestedScale=0.50 | ActualScale=(0.5, 0.5, 0.5)
+[17:31:22.2407238] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 2000.0 units.
+[17:31:22.2497416] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.2,13.2,0.0) | ActualRot=(17.2,13.2,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(35124.4, 9513.7, -1629.0)
+[17:31:22.2500704] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.2,13.2,0.0) | ActualRot=(17.2,13.2,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(35062.2, 9370.8, -1326.8)
+[17:31:22.2504545] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.2,13.2,0.0) | ActualRot=(17.2,13.2,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(34983.0, 9905.6, -1472.7)
+[17:31:22.2507776] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.2,13.2,0.0) | ActualRot=(17.2,13.2,0.0) | ReqScale=(3.3, 0.2, 0.2) | ActualScale=(3.2, 0.2, 0.2) | Loc=(34920.7, 9762.7, -1170.6)
+[17:31:22.2513865] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.6,109.8,0.0) | ActualRot=(20.6,109.8,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(34902.6, 9674.2, -1598.8)
+[17:31:22.2518117] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.6,109.8,0.0) | ActualRot=(20.6,109.8,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(34840.3, 9531.3, -1296.6)
+[17:31:22.2523753] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.6,109.8,0.0) | ActualRot=(20.6,109.8,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(35204.9, 9745.1, -1502.9)
+[17:31:22.2527326] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(20.6,109.8,0.0) | ActualRot=(20.6,109.8,0.0) | ReqScale=(4.5, 0.2, 0.2) | ActualScale=(4.5, 0.2, 0.2) | Loc=(35142.6, 9602.2, -1200.8)
+[17:31:22.2530403] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(62.7,-113.5,0.0) | ActualRot=(62.7,-113.5,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(34942.1, 9406.8, -1525.8)
+[17:31:22.2550260] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(62.7,-113.5,0.0) | ActualRot=(62.7,-113.5,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(34800.7, 9798.7, -1369.6)
+[17:31:22.2570847] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(62.7,-113.5,0.0) | ActualRot=(62.7,-113.5,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(35244.5, 9477.7, -1430.0)
+[17:31:22.2574769] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(62.7,-113.5,0.0) | ActualRot=(62.7,-113.5,0.0) | ReqScale=(3.4, 0.2, 0.2) | ActualScale=(3.4, 0.2, 0.2) | Loc=(35103.1, 9869.6, -1273.7)
+[17:31:22.2576472] [Lua] [HTS-F6-DUAL] TARGET_B wireframe created. Actor=BP_ContainerTrain_Box100_40 | Center=(35022.6, 9638.2, -1399.8) | ScaledExtent=(112.5, 172.5, 120.0) | Edges=12 | Thickness=18.0 | Padding=50.0
+[17:31:22.2582042] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33840.1, 8994.9, -1714.9)
+[17:31:22.2585104] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33840.1, 8994.9, -1564.9)
+[17:31:22.2589111] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33840.1, 9144.9, -1714.9)
+[17:31:22.2592223] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33840.1, 9144.9, -1564.9)
+[17:31:22.2596442] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33765.1, 9069.9, -1714.9)
+[17:31:22.2599432] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33765.1, 9069.9, -1564.9)
+[17:31:22.2603170] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33915.1, 9069.9, -1714.9)
+[17:31:22.2606103] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33915.1, 9069.9, -1564.9)
+[17:31:22.2609883] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33765.1, 8994.9, -1639.9)
+[17:31:22.2612819] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33765.1, 9144.9, -1639.9)
+[17:31:22.2616581] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33915.1, 8994.9, -1639.9)
+[17:31:22.2619500] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(33915.1, 9144.9, -1639.9)
+[17:31:22.2620972] [Lua] [HTS-F6-DUAL] CALIBRATION_C created. Center=(33840.1, 9069.9, -1639.9) | HalfExtent=75 | Edges=12 | Thickness=12.0
+[17:31:22.2624094] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (scale=0.50) | B=TARGET_WIREFRAME (12 edges) | Target=BP_ContainerTrain_Box100_40
+[17:31:22.2627276] [Lua] [HTS-F6-DUAL] Press F6 again to destroy CONTROL_A and all 12 TARGET_B edges.
+[17:31:23.1861545] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=25 | Failed=0
+[17:31:23.6556171] Asset loaded
+[17:31:23.6557656] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[17:31:23.6574031] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(40001.3, 9775.2, -989.7) | ActualLoc=(40001.3, 9775.2, -989.7) | RequestedScale=0.50 | ActualScale=(0.5, 0.5, 0.5)
+[17:31:23.6591671] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 2000.0 units.
+[17:31:23.6679371] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(3.5,7.9,0.0) | ActualRot=(3.5,7.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(38376.1, 8596.2, -575.8)
+[17:31:23.6683025] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(3.5,7.9,0.0) | ActualRot=(3.5,7.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(38347.8, 8774.7, -517.3)
+[17:31:23.6686259] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(3.5,7.9,0.0) | ActualRot=(3.5,7.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(38383.2, 8740.5, -1012.5)
+[17:31:23.6690086] [Lua] [HTS-F6-DUAL] EDGE X-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(3.5,7.9,0.0) | ActualRot=(3.5,7.9,0.0) | ReqScale=(1.7, 0.2, 0.2) | ActualScale=(1.7, 0.2, 0.2) | Loc=(38354.9, 8919.1, -954.0)
+[17:31:23.6693178] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-71.7,87.2,0.0) | ActualRot=(-71.7,87.2,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(38294.6, 8656.6, -799.4)
+[17:31:23.6697329] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-71.7,87.2,0.0) | ActualRot=(-71.7,87.2,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(38266.3, 8835.2, -740.9)
+[17:31:23.6700705] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-71.7,87.2,0.0) | ActualRot=(-71.7,87.2,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(38464.6, 8680.1, -788.9)
+[17:31:23.6704815] [Lua] [HTS-F6-DUAL] EDGE Y-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(-71.7,87.2,0.0) | ActualRot=(-71.7,87.2,0.0) | ReqScale=(4.6, 0.2, 0.2) | ActualScale=(4.6, 0.2, 0.2) | Loc=(38436.4, 8858.6, -730.4)
+[17:31:23.6708615] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.9,99.0,0.0) | ActualRot=(17.9,99.0,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(38276.9, 8673.7, -551.8)
+[17:31:23.6712226] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.9,99.0,0.0) | ActualRot=(17.9,99.0,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(38284.0, 8818.1, -988.5)
+[17:31:23.6715713] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.9,99.0,0.0) | ActualRot=(17.9,99.0,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(38447.0, 8697.2, -541.3)
+[17:31:23.6720758] [Lua] [HTS-F6-DUAL] EDGE Z-edge | RotationSet=true | AlignDot=1.00000 | ReqRot=(17.9,99.0,0.0) | ActualRot=(17.9,99.0,0.0) | ReqScale=(1.9, 0.2, 0.2) | ActualScale=(1.9, 0.2, 0.2) | Loc=(38454.1, 8841.5, -978.0)
+[17:31:23.6722184] [Lua] [HTS-F6-DUAL] TARGET_B wireframe created. Actor=BP_DM_SE03_Sign154_74 | Center=(38365.5, 8757.6, -764.9) | ScaledExtent=(36.0, 180.0, 45.0) | Edges=12 | Thickness=18.0 | Padding=50.0
+[17:31:23.6727931] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40001.3, 9700.2, -1064.7)
+[17:31:23.6731456] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40001.3, 9700.2, -914.7)
+[17:31:23.6734910] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40001.3, 9850.2, -1064.7)
+[17:31:23.6739193] [Lua] [HTS-F6-DUAL] EDGE CAL-X | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,0.0,0.0) | ActualRot=(0.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40001.3, 9850.2, -914.7)
+[17:31:23.6742936] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(39926.3, 9775.2, -1064.7)
+[17:31:23.6747285] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(39926.3, 9775.2, -914.7)
+[17:31:23.6750541] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40076.3, 9775.2, -1064.7)
+[17:31:23.6754664] [Lua] [HTS-F6-DUAL] EDGE CAL-Y | RotationSet=true | AlignDot=1.00000 | ReqRot=(0.0,90.0,0.0) | ActualRot=(0.0,90.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40076.3, 9775.2, -914.7)
+[17:31:23.6757999] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(39926.3, 9700.2, -989.7)
+[17:31:23.6762136] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(39926.3, 9850.2, -989.7)
+[17:31:23.6765517] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40076.3, 9700.2, -989.7)
+[17:31:23.6769325] [Lua] [HTS-F6-DUAL] EDGE CAL-Z | RotationSet=true | AlignDot=1.00000 | ReqRot=(90.0,0.0,0.0) | ActualRot=(90.0,0.0,0.0) | ReqScale=(1.5, 0.1, 0.1) | ActualScale=(1.5, 0.1, 0.1) | Loc=(40076.3, 9850.2, -989.7)
+[17:31:23.6771408] [Lua] [HTS-F6-DUAL] CALIBRATION_C created. Center=(40001.3, 9775.2, -989.7) | HalfExtent=75 | Edges=12 | Thickness=12.0
+[17:31:23.6775162] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (scale=0.50) | B=TARGET_WIREFRAME (12 edges) | Target=BP_DM_SE03_Sign154_74
+[17:31:23.6778942] [Lua] [HTS-F6-DUAL] Press F6 again to destroy CONTROL_A and all 12 TARGET_B edges.
+[17:31:28.1128192] [Lua] [AdvisorV3] === PREP STOPPED & CLEARED ===
