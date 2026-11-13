@@ -1,0 +1,263 @@
+	-- >>> HTS:OBSTACLE_SCAN:BEGIN >>>
+    local closestObs = nil
+	local minDist = 6000.0
+	local localGeomBudget = 3
+
+	for _, entry in ipairs(cached_targets) do
+        local actor = entry.actor
+        local box = entry.box
+        if actor:IsValid() and box:IsValid() then
+		local boxLoc = adv_safeCall(box, "K2_GetComponentLocation")
+		local ext = adv_safeCall(box, "GetScaledBoxExtent")
+
+			if boxLoc and ext then
+				local aFwd = adv_safeCall(box, "GetForwardVector")
+				local aRight = adv_safeCall(box, "GetRightVector")
+				local aUp = adv_safeCall(box, "GetUpVector")
+                
+				-- >>> HTS:LOCAL_GEOM_AUDIT:BEGIN >>>
+				-- TEMP: obstacle-local spline geometry audit
+				if localGeomBudget > 0 then
+
+					local objectName = actor:GetFName():ToString()
+
+					if not local_geom_seen[objectName] then
+
+						local_geom_seen[objectName] = true
+						localGeomBudget = localGeomBudget - 1
+
+						local m, err = adv_measureLocalBoxFrame(
+							boxLoc, aFwd, aRight, aUp, ext,
+							Tan, Up, eTheta, Center, eveSplineDistance
+						)
+
+						if m then
+							
+							local eveSText = eveSplineDistance
+								and string.format("%.1f", eveSplineDistance)
+								or "NA"
+
+							local boxSText = m.boxSplineDistance
+								and string.format("%.1f", m.boxSplineDistance)
+								or "NA"
+
+							local splineDeltaText = m.splineDelta
+								and string.format("%.1f", m.splineDelta)
+								or "NA"
+
+							local splineErrorText = m.splineFwdError
+								and string.format("%.1f", m.splineFwdError)
+								or "NA"
+							
+							local minRotTwistText = m.minRotTwist
+								and string.format("%.1f", m.minRotTwist) or "NA"
+
+							local thetaCenterMinRotText = m.thetaCenterMinRot
+								and string.format("%.1f", m.thetaCenterMinRot) or "NA"
+
+							local deltaThetaEveMinRotText = m.deltaThetaEveMinRot
+								and string.format("%.1f", m.deltaThetaEveMinRot) or "NA"
+
+							local thetaMinMinRotText = m.thetaMinMinRot
+								and string.format("%.1f", m.thetaMinMinRot) or "NA"
+
+							local thetaMaxMinRotText = m.thetaMaxMinRot
+								and string.format("%.1f", m.thetaMaxMinRot) or "NA"
+							
+							print(string.format(
+								"[%s] [LOCAL-GEOM] %s | SplineOffset=%.1f | CenterAlong=%.1f | RadCenter=%.1f | RadCorners=[%.1f..%.1f] | ThetaCenter=%.1f | LocalSector=[%.1f..%.1f] Span=%.1f | TangentDiff=%.1f deg | EveS=%s | BoxS=%s | SplineDelta=%s | EveTangentFwd=%.1f | DeltaError=%s | MinRotTwist=%s deg | ThetaCenterMinRot=%s | DeltaThetaEveMinRot=%s | SectorMinRot=[%s..%s]\n",
+								ADV_MOD,
+								objectName,
+								m.splineOffset,
+								m.centerAlong,
+								m.radCenter,
+								m.radMin,
+								m.radMax,
+								m.thetaCenter,
+								m.thetaMin,
+								m.thetaMax,
+								m.sectorSpan,
+								m.tangentDiff,
+								eveSText,
+								boxSText,
+								splineDeltaText,
+								m.eveTangentFwd,
+								splineErrorText,
+								minRotTwistText,
+								thetaCenterMinRotText,
+								deltaThetaEveMinRotText,
+								thetaMinMinRotText,
+								thetaMaxMinRotText
+							))
+
+						else
+
+							print(string.format(
+								"[%s] [LOCAL-GEOM-FAIL] %s: %s\n",
+								ADV_MOD, objectName, tostring(err)
+							))
+
+						end
+					end
+				end
+				-- <<< HTS:LOCAL_GEOM_AUDIT:END <<<
+				
+				-- >>> HTS:OBSTACLE_GEOMETRY:BEGIN >>>
+                local cCenterVec = vec_sub(boxLoc, Center)
+                local cCenterFwd = vec_dot(cCenterVec, Tan)
+				local cCenterRad = vec_len(vec_sub(cCenterVec, {
+					X = Tan.X * cCenterFwd,
+					Y = Tan.Y * cCenterFwd,
+					Z = Tan.Z * cCenterFwd
+				}))
+                local cThetaCenter = math.deg(math.atan(vec_dot(vec_sub(cCenterVec, {X=Tan.X*cCenterFwd, Y=Tan.Y*cCenterFwd, Z=Tan.Z*cCenterFwd}), Up), vec_dot(vec_sub(cCenterVec, {X=Tan.X*cCenterFwd, Y=Tan.Y*cCenterFwd, Z=Tan.Z*cCenterFwd}), Right)))
+                
+                local minFwd, maxFwd = 999999, -999999
+				local minDelta, maxDelta = 999999, -999999
+				local minRad, maxRad = 999999, -999999
+                
+                for sx = -1, 1, 2 do for sy = -1, 1, 2 do for sz = -1, 1, 2 do
+                    local corner = {
+                        X = boxLoc.X + (aFwd.X*ext.X*sx) + (aRight.X*ext.Y*sy) + (aUp.X*ext.Z*sz),
+                        Y = boxLoc.Y + (aFwd.Y*ext.X*sx) + (aRight.Y*ext.Y*sy) + (aUp.Y*ext.Z*sz),
+                        Z = boxLoc.Z + (aFwd.Z*ext.X*sx) + (aRight.Z*ext.Y*sy) + (aUp.Z*ext.Z*sz)
+                    }
+                    local cVec = vec_sub(corner, Center)
+                    local cFwd = vec_dot(cVec, Tan)
+					local cRadVec = vec_sub(cVec, {X=Tan.X*cFwd, Y=Tan.Y*cFwd, Z=Tan.Z*cFwd})
+					local cRadDist = vec_len(cRadVec)
+
+					if cRadDist < minRad then minRad = cRadDist end
+					if cRadDist > maxRad then maxRad = cRadDist end
+
+					local cTheta = math.deg(math.atan(vec_dot(cRadVec, Up), vec_dot(cRadVec, Right)))
+                    local delta = angleDiff(cTheta, cThetaCenter)
+                    
+                    if cFwd < minFwd then minFwd = cFwd end
+                    if cFwd > maxFwd then maxFwd = cFwd end
+                    if delta < minDelta then minDelta = delta end
+                    if delta > maxDelta then maxDelta = delta end
+                end end end
+                
+                local minTheta = normAngle(cThetaCenter + minDelta)
+                local maxTheta = normAngle(cThetaCenter + maxDelta)
+				-- <<< HTS:OBSTACLE_GEOMETRY:END <<<
+				
+                local effectiveFwd = minFwd - ADV_EVE_RADIUS
+                
+                if effectiveFwd > 0 and effectiveFwd < minDist then
+                    local function isAngleInSector(angle, min, max)
+                        local a = (angle + 360) % 360; local m = (min + 360) % 360; local x = (max + 360) % 360
+                        if m <= x then return a >= m and a <= x else return a >= m or a <= x end
+                    end
+                    
+                    local inSector = isAngleInSector(eTheta, minTheta, maxTheta)
+                    local ttc = effectiveFwd / ADV_CRUISE_SPEED
+                    local predTheta = normAngle(eTheta + (omega * ttc))
+                    local predInSector = isAngleInSector(predTheta, minTheta, maxTheta)
+                    
+                    if inSector or predInSector then
+						-- TEMP: compare Actor transform with BoxComponent transform
+						local actorLoc = adv_safeCall(actor, "K2_GetActorLocation")
+						local actorFwd = adv_safeCall(actor, "GetActorForwardVector")
+						local actorRight = adv_safeCall(actor, "GetActorRightVector")
+						local actorUp = adv_safeCall(actor, "GetActorUpVector")
+
+						local actorBoxOffset = -1
+						local actorBoxFwdDiff = -1
+						local actorBoxRightDiff = -1
+						local actorBoxUpDiff = -1
+
+						local actorBoxOffsetFwd = -1
+						local actorBoxOffsetRight = -1
+						local actorBoxOffsetUp = -1
+
+						if actorLoc then
+							local offsetVec = vec_sub(boxLoc, actorLoc)
+							actorBoxOffset = vec_len(offsetVec)
+
+							if actorFwd and actorRight and actorUp then
+								actorBoxOffsetFwd = vec_dot(offsetVec, actorFwd)
+								actorBoxOffsetRight = vec_dot(offsetVec, actorRight)
+								actorBoxOffsetUp = vec_dot(offsetVec, actorUp)
+							end
+						end
+
+						local function axisDiffDeg(v1, v2)
+							if not v1 or not v2 then return -1 end
+							local d = math.abs(vec_dot(v1, v2))
+							if d > 1 then d = 1 end
+							return math.deg(math.acos(d))
+						end
+
+						actorBoxFwdDiff = axisDiffDeg(actorFwd, aFwd)
+						actorBoxRightDiff = axisDiffDeg(actorRight, aRight)
+						actorBoxUpDiff = axisDiffDeg(actorUp, aUp)
+					
+                        local distToMin = math.abs(angleDiff(minTheta, eTheta))
+                        local distToMax = math.abs(angleDiff(maxTheta, eTheta))
+                        local targetTheta
+                        if distToMin < distToMax then targetTheta = normAngle(minTheta - ADV_SAFETY_MARGIN)
+                        else targetTheta = normAngle(maxTheta + ADV_SAFETY_MARGIN) end
+                        local reqDelta = angleDiff(targetTheta, eTheta)
+                        local direction = reqDelta < 0 and "A (Left)" or "D (Right)"
+                        
+                        closestObs = {
+                            name = actor:GetFName():ToString(), cls = adv_safeCall(actor:GetClass(), "GetFName"):ToString(), 
+                            dist = effectiveFwd, ttc = ttc, minTheta = minTheta, maxTheta = maxTheta,
+                            targetTheta = targetTheta, reqDelta = reqDelta, direction = direction,
+							predTheta = predTheta, predDanger = predInSector, nowInSector = inSector,
+							sectorSpan = maxDelta - minDelta,
+							actorBoxOffset = actorBoxOffset,
+							actorBoxFwdDiff = actorBoxFwdDiff,
+							actorBoxRightDiff = actorBoxRightDiff,
+							actorBoxUpDiff = actorBoxUpDiff,
+							actorBoxOffsetFwd = actorBoxOffsetFwd,
+							actorBoxOffsetRight = actorBoxOffsetRight,
+							actorBoxOffsetUp = actorBoxOffsetUp,
+							centerRad = cCenterRad,
+							radMin = minRad,
+							radMax = maxRad
+                        }
+                        minDist = effectiveFwd
+                    end
+                end
+            end
+        end
+    end
+    -- <<< HTS:OBSTACLE_SCAN:END <<<
+
+
+    -- >>> HTS:ADVISOR_OUTPUT:BEGIN >>>
+    if closestObs then
+	        if not geom_diag_seen[closestObs.name] then
+            geom_diag_seen[closestObs.name] = true
+
+            print(string.format(
+				"[%s] [GEOM-AUDIT] %s | SectorSpan=%.1f deg | RadCenter=%.1f | RadCorners=[%.1f..%.1f] | ActorBoxOffset=%.2f | AxisDiff F/R/U=%.2f/%.2f/%.2f deg | OffsetLocal F/R/U=%.2f/%.2f/%.2f\n",
+                ADV_MOD,
+                closestObs.name,
+                closestObs.sectorSpan,
+                closestObs.centerRad,
+                closestObs.radMin,
+                closestObs.radMax,
+				closestObs.actorBoxOffset,
+                closestObs.actorBoxFwdDiff,
+                closestObs.actorBoxRightDiff,
+                closestObs.actorBoxUpDiff,
+				closestObs.actorBoxOffsetFwd,
+				closestObs.actorBoxOffsetRight,
+				closestObs.actorBoxOffsetUp
+            ))
+			end
+        local status = "[SAFE-APPROACHING]"
+        if closestObs.nowInSector and closestObs.predDanger then status = "[DANGER-INSIDE]"
+        elseif closestObs.nowInSector and not closestObs.predDanger then status = "[IN-SECTOR-EXITING]"
+        elseif not closestObs.nowInSector and closestObs.predDanger then status = "[WILL-ENTER]" end
+        
+        print(string.format("\n[%s] %s %s | Dist=%.0f | TTC=%.2fs\n", ADV_MOD, status, closestObs.cls, closestObs.dist, closestObs.ttc))
+        print(string.format("[%s]    EveTheta=%.1f | Sector=[%.1f..%.1f]\n", ADV_MOD, eTheta, closestObs.minTheta, closestObs.maxTheta))
+        print(string.format("[%s]    Omega=%.1f deg/s | PredTheta=%.1f\n", ADV_MOD, omega, closestObs.predTheta))
+        print(string.format("[%s]    REQ: Theta=%.1f (Delta=%.1f) -> Hold %s\n", ADV_MOD, closestObs.targetTheta, closestObs.reqDelta, closestObs.direction))
+    end
+    -- <<< HTS:ADVISOR_OUTPUT:END <<<
