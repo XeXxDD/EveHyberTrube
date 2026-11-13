@@ -1,0 +1,72 @@
+[15:30:54.2046161] [Lua] [AdvisorV3] === PREP STARTED (F3). Waiting for tube entry... ===
+[15:30:59.6161922] [Lua] [AdvisorV3] PREP HEARTBEAT #30: foundEve=true, CylR=40.0, inTube=false
+[15:31:00.4873954] [Lua] [AdvisorV3] TUBE DETECTED (Delay: 6283.00 ms). Building Index...
+[15:31:01.0013981] [Lua] [AdvisorV3] INDEX READY. Total: 410.00 ms
+[15:31:01.0015144] [Lua] [AdvisorV3]   - FindAllOf(BoxComponent): 75.00 ms
+[15:31:01.0017281] [Lua] [AdvisorV3]   - Find Targets (Boxes+Signs): 132.00 ms
+[15:31:01.0017825] [Lua] [AdvisorV3]   - Cached valid targets: 138
+[15:31:01.1047695] Asset loaded
+[15:31:01.1048820] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:01.1053597] [Lua] [HTS-F6-DUAL] CONTROL_A ERROR: SpawnActor: ...aries\Win64\ue4ss\Mods\HyperTubeScanner\Scripts\main.lua:1882: World:SpawnActor returned an invalid Actor
+[15:31:01.7902037] Asset loaded
+[15:31:01.7903166] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:01.7912987] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(11483.0, 10146.2, 877.0) | ActualLoc=(11483.0, 10146.2, 877.0) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:01.7913857] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:01.8000769] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_DM_SE03_Sign7_44 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=844.1 | SplineDelta=301.7 | BoxExtent=(36.0, 180.0, 45.0) | MarkerSide=486.0
+[15:31:01.8004351] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(10982.1, 10621.9, 1269.7) | ActualLoc=(10982.1, 10621.9, 1269.7) | RequestedScale=4.86 | ActualScale=(4.9, 4.9, 4.9)
+[15:31:01.8005124] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=486.0) | Target=BP_DM_SE03_Sign7_44
+[15:31:01.8005661] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:02.1733220] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:02.6426469] Asset loaded
+[15:31:02.6427644] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:02.6434879] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(14638.7, 12019.7, 361.9) | ActualLoc=(14638.7, 12019.7, 361.9) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:02.6435661] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:02.6525001] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_DM_SE03_Sign131_11 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=2013.4 | SplineDelta=1840.2 | BoxExtent=(36.0, 180.0, 45.0) | MarkerSide=486.0
+[15:31:02.6528709] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(16012.3, 13083.0, 467.2) | ActualLoc=(16012.3, 13083.0, 467.2) | RequestedScale=4.86 | ActualScale=(4.9, 4.9, 4.9)
+[15:31:02.6529360] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=486.0) | Target=BP_DM_SE03_Sign131_11
+[15:31:02.6529822] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:02.9748930] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:03.4238074] Asset loaded
+[15:31:03.4239366] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:03.4258571] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(17826.7, 12462.1, -319.4) | ActualLoc=(17826.7, 12462.1, -319.4) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:03.4262621] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:03.4406639] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_ContainerTrain_Box74_14 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=2527.7 | SplineDelta=2477.6 | BoxExtent=(112.5, 172.5, 120.0) | MarkerSide=465.8
+[15:31:03.4411604] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(19937.5, 12937.8, -862.3) | ActualLoc=(19937.5, 12937.8, -862.3) | RequestedScale=4.66 | ActualScale=(4.7, 4.7, 4.7)
+[15:31:03.4412497] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=465.8) | Target=BP_ContainerTrain_Box74_14
+[15:31:03.4416553] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:03.7647385] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:04.1948517] Asset loaded
+[15:31:04.1949839] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:04.1970629] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(20981.3, 12586.4, -1248.3) | ActualLoc=(20981.3, 12586.4, -1248.3) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:04.1971543] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:04.2053431] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_DM_SE03_Sign135_13 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=1024.0 | SplineDelta=545.8 | BoxExtent=(36.0, 180.0, 45.0) | MarkerSide=486.0
+[15:31:04.2059367] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(21382.4, 13247.6, -895.7) | ActualLoc=(21382.4, 13247.6, -895.7) | RequestedScale=4.86 | ActualScale=(4.9, 4.9, 4.9)
+[15:31:04.2062015] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=486.0) | Target=BP_DM_SE03_Sign135_13
+[15:31:04.2067355] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:04.6127794] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:04.9914934] Asset loaded
+[15:31:04.9916094] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:04.9934857] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(24322.8, 12196.0, -1709.3) | ActualLoc=(24322.8, 12196.0, -1709.3) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:04.9935821] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:05.0030067] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_ContainerTrain_Box86_26 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=1700.9 | SplineDelta=1644.4 | BoxExtent=(112.5, 172.5, 120.0) | MarkerSide=465.8
+[15:31:05.0034882] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(25739.7, 12259.2, -1704.6) | ActualLoc=(25739.7, 12259.2, -1704.6) | RequestedScale=4.66 | ActualScale=(4.7, 4.7, 4.7)
+[15:31:05.0035717] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=465.8) | Target=BP_ContainerTrain_Box86_26
+[15:31:05.0039725] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:05.3133392] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:05.7101883] Asset loaded
+[15:31:05.7103142] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:05.7119460] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(27407.3, 11616.5, -1909.6) | ActualLoc=(27407.3, 11616.5, -1909.6) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:05.7120344] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:05.7205716] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_DM_SE03_Sign153_73 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=1206.3 | SplineDelta=923.1 | BoxExtent=(36.0, 180.0, 45.0) | MarkerSide=486.0
+[15:31:05.7210501] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(28233.7, 11916.5, -1558.9) | ActualLoc=(28233.7, 11916.5, -1558.9) | RequestedScale=4.86 | ActualScale=(4.9, 4.9, 4.9)
+[15:31:05.7211652] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=486.0) | Target=BP_DM_SE03_Sign153_73
+[15:31:05.7215101] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
+[15:31:06.0249896] [Lua] [HTS-F6-DUAL] Cleanup complete. Destroyed=2 | Failed=0
+[15:31:06.7867385] Asset loaded
+[15:31:06.7868408] [Lua] [HTS-F6-DUAL] Asset loaded. Spawning CONTROL marker A...
+[15:31:06.7883314] [Lua] [HTS-F6-DUAL] CONTROL_A created. RequestedLoc=(30673.7, 10367.1, -1914.4) | ActualLoc=(30673.7, 10367.1, -1914.4) | RequestedScale=1.50 | ActualScale=(1.5, 1.5, 1.5)
+[15:31:06.7884589] [Lua] [HTS-F6-DUAL] CONTROL_A expected ahead of Eve by 300.0 units.
+[15:31:06.7975836] [Lua] [HTS-F6-DUAL] TARGET_B candidate=BP_ContainerTrain_Box100_40 | Selection=NEAREST_FORWARD_BY_SPLINE | WorldDistance=4721.4 | SplineDelta=4746.1 | BoxExtent=(112.5, 172.5, 120.0) | MarkerSide=465.8
+[15:31:06.7980245] [Lua] [HTS-F6-DUAL] TARGET_B created. RequestedLoc=(35022.6, 9638.2, -1399.8) | ActualLoc=(35022.6, 9638.2, -1399.8) | RequestedScale=4.66 | ActualScale=(4.7, 4.7, 4.7)
+[15:31:06.7981750] [Lua] [HTS-F6-DUAL] BOTH MARKERS SPAWNED. A=CONTROL (side=150) | B=TARGET (side=465.8) | Target=BP_ContainerTrain_Box100_40
+[15:31:06.7984960] [Lua] [HTS-F6-DUAL] Press F6 again to destroy both markers.
